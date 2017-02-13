@@ -34,8 +34,8 @@ public class SimpleEditText extends EditText {
     ShapeDrawable unfocusedBackground;
     ShapeDrawable unfocusedBottomStripe;
 
-    final int DEFAULT_FOCUS_LINE_COLOR = Color.YELLOW;
-    final int DEFAULT_UNFOCUS_LINE_COLOR = Color.BLACK;
+    final int DEFAULT_FOCUS_LINE_COLOR = Color.BLACK;
+    final int DEFAULT_UNFOCUS_LINE_COLOR = Color.GRAY;
 
 
     public void setUnfocusedStrokeSize(int strokeSize){
