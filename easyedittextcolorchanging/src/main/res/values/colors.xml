@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ed_highlight">#00ff55</color>
+    <color name="ed_default">#050505</color>
+    <color name="ed_white">#999999</color>
+    <color name="default_androud_bk">#fffafafa</color>
+    <color name="colorPrimary">#3F51B5</color>
+
+</resources>
