@@ -14,9 +14,10 @@
     <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="#3F51B5"
         android:id="@+id/et_first"
         android:hint="@string/text_focused"
+        android:inputType="phone"
+        android:text="#3F51B5"
 
         />
     <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
@@ -26,15 +27,109 @@
         android:layout_below="@+id/et_first"
         android:hint="@string/text_unfocused"
         android:text="#ff00ff"
+        android:inputType="phone"
         android:id="@+id/et_second"
         />
 
-    <Button
-        android:text="Button"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:text="1"
+        android:hint="Default is 1"
+        android:id="@+id/ed_strokeFocusedSize"
+        android:layout_below="@+id/et_second"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"/>
+
+    <TextView
+        android:text="Focused Stroke size :"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/et_second"
         android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-        android:id="@+id/button"/>
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView"
+       android:layout_alignBottom="@+id/ed_strokeFocusedSize"/>
+
+    <TextView
+        android:text="Unfocused Stroke size :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/ed_strokeunfocusedSize"
+        android:id="@+id/dftv"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/ed_strokeFocusedSize"
+        android:text="1"
+        android:hint="Default is 1"
+        android:id="@+id/ed_strokeunfocusedSize"
+        android:layout_toRightOf="@+id/dftv"
+        android:layout_toEndOf="@+id/dftv"/>
+
+    <Button
+        android:text="update View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"/>
+
+    <TextView
+        android:text="FocusedText Padding Bottom Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dftv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/ed_focus_padding"
+        android:id="@+id/textView3"/>
+    <TextView
+        android:text="UnfocusedText Padding Bottom Size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/ed_unfocused_padding"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="25"
+        android:ems="10"
+        android:hint="Default is 25"
+        android:layout_below="@+id/ed_strokeunfocusedSize"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:id="@+id/ed_focus_padding"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:text="25"
+        android:hint="Default is 25"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:id="@+id/ed_unfocused_padding"
+        android:layout_below="@+id/ed_focus_padding"/>
+
 </RelativeLayout>
