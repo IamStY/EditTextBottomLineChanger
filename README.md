@@ -32,10 +32,12 @@ For initialization
 
    and xml 
 ------------------------------------------------------------------------------
- <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/simple_et"/>
+ 
+ 
+				 <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/simple_et"/>
 		
 --------------------------------------------------------------------------------
 To set the focused and unfocused stroke color
