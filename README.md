@@ -45,19 +45,20 @@ To set the focused and unfocused stroke color
 	simpleEditTextChange.setFocusedEditTextLineColor(Color.BLACK);
 	simpleEditTextChange.setUnfocusedEditTextLineColor(Color.GRAY);
 	
-    ------------------------------------------------------------------------------
+  
 To set the focused and unfocused stroke size
 -------------------------------------------------------------------------------
 	simpleEditTextChange.setFocusedStrokeSize(1);
 	simpleEditTextChange.setUnfocusedStrokeSize(1);
 	
-    ------------------------------------------------------------------------------
+
 To set the focused and unfocused stroke size
 -------------------------------------------------------------------------------
 	simpleEditTextChange.setFocusedTextPaddingBottom(25);
 	simpleEditTextChange.setUnfocusedTextPaddingBottom(25);
 	
-    ------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
 
 	Finally , Call the below function to refresh the UI change
 	
