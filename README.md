@@ -1,8 +1,7 @@
 # EditTextBottomLineChanger
 An easy way to change edit text bottom line color dynamically
 
-![simpleedittextchange](https://cloud.githubusercontent.com/assets/14084447/22910829/a81f6240-f297-11e6-8050-59e9df610665.gif)
-
+![simpleedittextchange](https://cloud.githubusercontent.com/assets/14084447/22911024/b121ad2a-f298-11e6-83bb-66e1a5223fdb.gif)
 
 first of all , in your project gradle
 add this -
@@ -20,9 +19,9 @@ add this -
 -------------------------------------------------------------
 	      compile 'com.github.IamStY:EditTextBottomLineChanger:v1.0'
 -------------------------------------------------------------------------------------------
-/******************************
+
 * Note : after every settings to SimpleEditText , don't forget to call  SimpleEditText.notifyUiChanges() to refresh the current UI
-*
+
 
 
 
@@ -33,10 +32,10 @@ For initialization
 
    and xml -
    
-  <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/simple_et"/>
+ <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/simple_et"/>
 		
 --------------------------------------------------------------------------------
 To set the focused and unfocused stroke color
