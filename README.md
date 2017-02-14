@@ -2,6 +2,7 @@
 An easy way to change edit text bottom line color dynamically
 
 ![simpleedittextchange](https://cloud.githubusercontent.com/assets/14084447/22911155/44ec7256-f299-11e6-8262-d1efac17cb64.gif)
+--------------------------------------------------------------------------------------------
 first of all , in your project gradle
 add this -
 -------------------------------------------------------------------------------------------
@@ -29,8 +30,8 @@ For initialization
   SimpleEditText simpleEditTextChange =(SimpleEditText)this.findViewById(R.id.simple_et);
    --------------------------------------------------------------------------------
 
-   and xml -
-   
+   and xml 
+------------------------------------------------------------------------------
  <com.example.stevenyang.easyedittextcolorchanging.SimpleEditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
