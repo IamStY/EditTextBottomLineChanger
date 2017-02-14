@@ -1,6 +1,6 @@
 # EditTextBottomLineChanger
 An easy way to change edit text bottom line color dynamically
-
+----------------------------------------------------------------------------------------------
 ![simpleedittextchange](https://cloud.githubusercontent.com/assets/14084447/22911155/44ec7256-f299-11e6-8262-d1efac17cb64.gif)
 --------------------------------------------------------------------------------------------
 first of all , in your project gradle
@@ -17,11 +17,11 @@ add this -
 then go to your app's dependencies
 add this -
 -------------------------------------------------------------
-	      compile 'com.github.IamStY:EditTextBottomLineChanger:v1.0'
+	      compile 'com.github.IamStY:EditTextBottomLineChanger:v1.1'
 -------------------------------------------------------------------------------------------
 
-* Note : after every settings to SimpleEditText , don't forget to call  SimpleEditText.notifyUiChanges() to refresh the current UI
-
+* Note : After SimpleEditText finall setting, don't forget to call SimpleEditText.notifyUiChanges() to refresh the current UI
+* Note : All size setter function units are "pixels" 
 
 
 
